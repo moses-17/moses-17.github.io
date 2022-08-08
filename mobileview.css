@@ -1,0 +1,27 @@
+@media only screen and (max-width:900px) {
+    .R_main{
+        width: 800px;
+    }
+    .R_nav{
+        width:350px;
+        margin-left: 11px;
+    }
+    .R_container{
+        display: grid;
+        grid-template-columns: 35%;  
+        margin-left: 11px; 
+        grid-gap: 1em;
+    }
+    .R_right_bottom{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap:1em;
+    }
+    .R_right{
+        display: grid;
+        grid-template-rows: 33% 65%;
+        grid-gap:1em;
+        margin-top: 1.1em;
+    }
+    
+}
