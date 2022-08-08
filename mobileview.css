@@ -1,0 +1,21 @@
+@media only screen and (max-width:900px) {
+    .R_main{
+        margin:0 auto;
+        width: 900px;
+    }
+    R_nav{
+        width: auto;
+    }
+    .R_container{
+        display: grid;
+        grid-template-columns: 45%;  
+        margin-left: 12px; 
+        grid-gap: 3em;
+    }
+    .R_right_bottom{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap:1.5em;
+    }
+    
+}
